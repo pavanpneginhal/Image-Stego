@@ -69,8 +69,8 @@ end
 
 % Write both the input and output images to local storage
 % Mention the path to a folder here.
-imwrite(input, 'C:\Users\Pavan\Desktop\Stego\Sasuke.jpg');
-imwrite(output, 'C:\Users\Pavan\Desktop\Stego\stegoImage.png');
-filename = ('C:\Users\Pavan\Desktop\Stego\output_img.xlsx');
+imwrite(input, 'Directory\ Your directory');
+imwrite(output, 'Directory\ Your directory\stegoImage.png');
+filename = ('Directory\Your directory\output_img.xlsx');
 
 xlswrite(filename, output);
