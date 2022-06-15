@@ -5,7 +5,7 @@ clear all;
 clc;
 
 % Getting the input image
-filename = 'C:\Users\Pavan\Desktop\Stego\output_img.xlsx';
+filename = 'Directory\Your directory\output_img.xlsx';
 input_image = xlsread(filename);
 
 % Get height and width for traversing through the image
